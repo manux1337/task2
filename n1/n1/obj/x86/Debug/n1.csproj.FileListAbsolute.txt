@@ -1,0 +1,5 @@
+C:\Users\Мадияр\Documents\GitHub\task2\n1\n1\bin\Debug\n1.exe
+C:\Users\Мадияр\Documents\GitHub\task2\n1\n1\bin\Debug\n1.pdb
+C:\Users\Мадияр\Documents\GitHub\task2\n1\n1\obj\x86\Debug\n1.exe
+C:\Users\Мадияр\Documents\GitHub\task2\n1\n1\obj\x86\Debug\n1.pdb
+C:\Users\Мадияр\Documents\GitHub\task2\n1\n1\obj\x86\Debug\n1.csprojResolveAssemblyReference.cache
