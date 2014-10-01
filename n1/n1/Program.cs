@@ -15,7 +15,7 @@ namespace n1
             UltraPow up = new UltraPow(_text);
             if (up.success)
             {
-                Console.WriteLine("\nsqrt({0}) = {1}", _text, up.getPow());
+                Console.WriteLine("\nsqrt({0}) = {1}", _text, up.GetPow());
             }
             else
             {
@@ -48,7 +48,7 @@ namespace n1
             }
         }
 
-        public double getPow()
+        public double GetPow()
         {
             double acc = 0.000001;
             double a = number / 2, b = a + 1;
