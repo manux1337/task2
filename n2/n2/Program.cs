@@ -13,10 +13,10 @@ namespace n2
             Console.Title="Task2-2";
             GO1:Console.Write("Введите положительное число = ");
             Binary _bin = new Binary();
-            string s = Console.ReadLine();
+            UInt16 _digits = UInt16.Parse(Console.ReadLine());
             try
             {
-                _bin.Encode(Convert.ToUInt16(s));
+                _bin.Encode(_digits);
             }
             catch (OverflowException e)
             {
@@ -24,7 +24,7 @@ namespace n2
                     Console.WriteLine("\nОшибка!\nЧисло не положительное.\n");
                 goto GO1;
             }
-            Console.WriteLine("\n{0} в двоичном коде {{{1}}}", s, _bin.result);
+            Console.WriteLine("\n{0} в двоичном коде {{{1}}}", _digits, _bin.result);
             Console.WriteLine("\nНажмите любую клавишу для выхода...");
             Console.ReadKey();
 

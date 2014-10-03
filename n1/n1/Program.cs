@@ -21,7 +21,6 @@ namespace n1
             {
                 Console.WriteLine("\nОшибка!\nДанные введены не верно.");
             }
-            
             Console.WriteLine("\nНажмите любую клавишу для выхода...");
             Console.ReadKey();
         }
